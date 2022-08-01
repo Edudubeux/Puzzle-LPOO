@@ -1,11 +1,20 @@
 public class Menu {
-    private boolean iniciar;
-    private boolean sair;
+    private Boolean iniciar;
+    private Boolean sair;
 
-    public boolean getIniciar() {
+    public Boolean getIniciar() {
         return iniciar;
     }
-    public boolean getSair() {
+
+    public void setIniciar(Boolean iniciar) {
+        this.iniciar = iniciar;
+    }
+
+    public Boolean getSair() {
         return sair;
+    }
+
+    public void setSair(Boolean sair) {
+        this.sair = sair;
     }
 }
