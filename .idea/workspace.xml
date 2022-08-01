@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="09efdab7-f265-46a8-98b3-de2762330e2b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Puzzle/src/Controles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Puzzle/src/JogoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Puzzle/src/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Puzzle/src/Tabuleiro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/src/Tela.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ClzKdvnWHIYXWRl1qHMawQABUv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/LPOO/Puzzle-LPOO/Puzzle/src/Tabuleiro.java"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Menu" type="Java Scratch">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-18.0.1.1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Menu" />
+      <module name="Puzzle-LPOO" />
+      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/Puzzle/src/Menu.java" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09efdab7-f265-46a8-98b3-de2762330e2b" name="Changes" comment="" />
+      <created>1659391896894</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659391896894</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
