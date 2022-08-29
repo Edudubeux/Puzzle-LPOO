@@ -1,3 +1,5 @@
+package Users;
+
 public class Jogador {
     private String jogadorNome;
     private double pontuacao;
