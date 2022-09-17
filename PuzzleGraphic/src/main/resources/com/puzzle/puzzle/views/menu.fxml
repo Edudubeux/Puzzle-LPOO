@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="651.0" prefWidth="600.0" stylesheets="@../style/menu.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.puzzle.puzzle.MenuCtrl">
+   <children>
+      <Button fx:id="teste" layoutX="204.0" layoutY="145.0" mnemonicParsing="false" onAction="#teste1" style="background-color: red;" text="testefull" textFill="#f8f8f8" />
+      <DatePicker layoutX="93.0" layoutY="259.0" />
+   </children>
+</AnchorPane>
