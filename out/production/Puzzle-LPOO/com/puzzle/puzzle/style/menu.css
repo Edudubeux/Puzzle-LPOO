@@ -2,10 +2,22 @@
     -fx-background-color: RGB(253,185,39);
 }
 
+#iniciar:hover {
+    -fx-background-color: black;
+}
+
 #ranking {
     -fx-background-color: RGB(253,185,39);
 }
 
+#ranking:hover {
+    -fx-background-color: black;
+}
+
 #sair {
     -fx-background-color: RGB(253,185,39);
+}
+
+#sair:hover {
+    -fx-background-color: black;
 }

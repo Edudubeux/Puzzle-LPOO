@@ -11,6 +11,7 @@ public class JogoMain extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader menu = new FXMLLoader(JogoMain.class.getResource("views/menu.fxml"));
+        FXMLLoader gameSettings = new FXMLLoader(JogoMain.class.getResource("views/gameSettings.fxml"));
         Scene scene = new Scene(menu.load());
         stage.setScene(scene);
         stage.show();

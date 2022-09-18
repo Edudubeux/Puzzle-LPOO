@@ -3,41 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="4cadeee7-d66f-4f9d-af4e-bfd9cac64b08" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle-LPOO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle-LPOO.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/Puzzle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle/Puzzle.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/Controles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/Settings/Menu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/Settings/Ranking.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/Tabuleiro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/Users/Jogador.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/Users/Jogadores.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/src.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/src.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/src/Celula.java" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle/src/Celula.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/src/Settings/Menu.form" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle/src/Settings/Menu.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/src/Settings/Ranking.java" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle/src/Settings/Ranking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/src/Tabuleiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle/src/Tabuleiro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/src/Users/Jogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle/src/Users/Jogador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/src/Users/Jogadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle/src/Users/Jogadores.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/src/src.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle/src/src.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PuzzleGraphic/src/main/java/com/puzzle/puzzle/JogoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/PuzzleGraphic/src/main/java/com/puzzle/puzzle/JogoMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PuzzleGraphic/src/main/java/com/puzzle/puzzle/MenuCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/PuzzleGraphic/src/main/java/com/puzzle/puzzle/MenuCtrl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PuzzleGraphic/src/main/resources/com/puzzle/puzzle/style/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/PuzzleGraphic/src/main/resources/com/puzzle/puzzle/style/menu.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PuzzleGraphic/src/main/resources/com/puzzle/puzzle/views/menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/PuzzleGraphic/src/main/resources/com/puzzle/puzzle/views/menu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Puzzle-LPOO/com/puzzle/puzzle/JogoMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Puzzle-LPOO/com/puzzle/puzzle/JogoMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Puzzle-LPOO/com/puzzle/puzzle/MenuCtrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Puzzle-LPOO/com/puzzle/puzzle/MenuCtrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Puzzle-LPOO/com/puzzle/puzzle/style/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Puzzle-LPOO/com/puzzle/puzzle/style/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Puzzle-LPOO/com/puzzle/puzzle/views/menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Puzzle-LPOO/com/puzzle/puzzle/views/menu.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>

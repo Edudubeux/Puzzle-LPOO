@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="600.0" style="-fx-background-color: RGB(85,37,130);" stylesheets="@../style/gameSettings.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.puzzle.puzzle.GameSettings">
+   <children>
+      <Label layoutX="62.0" layoutY="43.0" prefHeight="74.0" prefWidth="442.0" text="Escolha a dificuldade do seu Puzzle" textFill="#fdb927" AnchorPane.leftAnchor="62.0" AnchorPane.rightAnchor="96.0">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <ToolBar layoutX="90.0" layoutY="125.0" prefHeight="80.0" prefWidth="304.0" style="-fx-background-color: RGB(85,37,130);" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="206.0">
+        <items>
+            <RadioButton fx:id="test" mnemonicParsing="false" prefHeight="42.0" prefWidth="79.0" text="2x2" textFill="#fdb927">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </RadioButton>
+            <RadioButton mnemonicParsing="false" prefHeight="42.0" prefWidth="79.0" text="3x3" textFill="#fdb927">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </RadioButton>
+            <RadioButton mnemonicParsing="false" prefHeight="42.0" prefWidth="79.0" text="4x4" textFill="#fdb927">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </RadioButton>
+        </items>
+      </ToolBar>
+      <Label layoutX="55.0" layoutY="223.0" prefHeight="74.0" prefWidth="360.0" text="Escolha o tipo do seu Puzzle" textFill="#fdb927" AnchorPane.leftAnchor="62.0" AnchorPane.rightAnchor="178.0">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <ToolBar layoutX="96.0" layoutY="308.0" prefHeight="80.0" prefWidth="374.0" style="-fx-background-color: RGB(85,37,130);" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="136.0">
+         <items>
+            <RadioButton mnemonicParsing="false" prefHeight="42.0" prefWidth="132.0" text="Números" textFill="#fdb927">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </RadioButton>
+            <RadioButton mnemonicParsing="false" prefHeight="42.0" prefWidth="110.0" text="Letras" textFill="#fdb927">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </RadioButton>
+            <RadioButton mnemonicParsing="false" prefHeight="42.0" prefWidth="108.0" text="Imagem" textFill="#fdb927">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </RadioButton>
+         </items>
+      </ToolBar>
+   </children>
+</AnchorPane>
