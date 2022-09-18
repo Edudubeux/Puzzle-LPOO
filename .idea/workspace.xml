@@ -1,8 +1,44 @@
-pull
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09efdab7-f265-46a8-98b3-de2762330e2b" name="Changes" comment="" />
+    <list default="true" id="4cadeee7-d66f-4f9d-af4e-bfd9cac64b08" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle-LPOO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle-LPOO.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/Puzzle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle/Puzzle.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/Controles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/Settings/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/Settings/Ranking.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/Tabuleiro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/Users/Jogador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/Users/Jogadores.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/src.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/src.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/src/Celula.java" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle/src/Celula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/src/Settings/Menu.form" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle/src/Settings/Menu.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/src/Settings/Ranking.java" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle/src/Settings/Ranking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/src/Tabuleiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle/src/Tabuleiro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/src/Users/Jogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle/src/Users/Jogador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/src/Users/Jogadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle/src/Users/Jogadores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/src/src.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle/src/src.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PuzzleGraphic/src/main/java/com/puzzle/puzzle/MenuCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/PuzzleGraphic/src/main/java/com/puzzle/puzzle/MenuCtrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PuzzleGraphic/src/main/resources/com/puzzle/puzzle/style/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/PuzzleGraphic/src/main/resources/com/puzzle/puzzle/style/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PuzzleGraphic/src/main/resources/com/puzzle/puzzle/views/menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/PuzzleGraphic/src/main/resources/com/puzzle/puzzle/views/menu.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,22 +65,28 @@ pull
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< Updated == upstream {
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Programação/Java/Puzzle-LPOO&quot;
-=======
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/DOWNLOADS/Atividade1-LPOO/src"
->>>>>>> Stashed changes
+    &quot;last_opened_file_path&quot;: &quot;D:/DOWNLOADS/Atividade1-LPOO/src&quot;
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; Stashed changes
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.JogoMain">
+    <configuration name="JogoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.puzzle.puzzle.JogoMain" />
+      <module name="Puzzle-LPOO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.puzzle.puzzle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Menu" type="Java Scratch">
       <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../Program Files/Java/jdk-18.0.1.1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -56,11 +98,16 @@ pull
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JogoMain" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="09efdab7-f265-46a8-98b3-de2762330e2b" name="Changes" comment="" />
+      <changelist id="4cadeee7-d66f-4f9d-af4e-bfd9cac64b08" name="Changes" comment="" />
       <created>1659391896894</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />

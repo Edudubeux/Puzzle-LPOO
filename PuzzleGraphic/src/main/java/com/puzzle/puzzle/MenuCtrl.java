@@ -9,7 +9,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 public class MenuCtrl implements Initializable {
-    public void teste1 () {
+    public void teste () {
         System.out.println("oi");
     }
 
@@ -20,7 +20,6 @@ public class MenuCtrl implements Initializable {
     void teste(ActionEvent event) {
 
     }
-
 
     public void initialize(URL url, ResourceBundle resourceBundle) {
     }
