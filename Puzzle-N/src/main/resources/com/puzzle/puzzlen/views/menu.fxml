@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="651.0" prefWidth="600.0" style="-fx-background-color: RGB(85,37,130);" stylesheets="@../style/menu.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.puzzle.puzzle.MenuCtrl">
+   <children>
+      <Button fx:id="iniciar" layoutX="174.0" layoutY="253.0" mnemonicParsing="false" onAction="#teste" prefHeight="73.0" prefWidth="253.0" text="INICIAR" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></Button>
+      <Button fx:id="ranking" layoutX="174.0" layoutY="369.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="253.0" style="background-color: red;" text="RANKING" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="sair" layoutX="174.0" layoutY="491.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="253.0" text="SAIR" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="104.0" layoutY="36.0" prefHeight="126.0" prefWidth="299.0" text="  PUZZLE-N" textFill="#f8f5f5" AnchorPane.leftAnchor="104.0" AnchorPane.rightAnchor="102.0">
+         <font>
+            <Font size="68.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
