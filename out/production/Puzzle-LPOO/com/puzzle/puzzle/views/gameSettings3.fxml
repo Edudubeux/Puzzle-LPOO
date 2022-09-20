@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="600.0" style="-fx-background-color: RGB(85,37,130);" stylesheets="@../style/gameSettings.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.puzzle.puzzle.controller.GameSettings">
+   <children>
+      <Label layoutX="67.0" layoutY="128.0" prefHeight="74.0" prefWidth="442.0" text="Escolha o tipo" textAlignment="CENTER" textFill="#fdb927">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="voltar" layoutX="496.0" layoutY="580.0" mnemonicParsing="false" onAction="#voltarModo" prefHeight="44.0" prefWidth="87.0" text="Voltar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="numeros" layoutX="37.0" layoutY="288.0" mnemonicParsing="false" onAction="#getTipo" prefHeight="63.0" prefWidth="139.0" style="-fx-background-color: RGB(253,185,39);" text="Números" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="letras" layoutX="205.0" layoutY="288.0" mnemonicParsing="false" onAction="#getTipo" prefHeight="63.0" prefWidth="139.0" style="-fx-background-color: RGB(253,185,39);" text="Letras" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="imagem" layoutX="370.0" layoutY="288.0" mnemonicParsing="false" onAction="#getTipo" prefHeight="63.0" prefWidth="139.0" style="-fx-background-color: RGB(253,185,39);" text="Imagem" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+#voltar {
+    -fx-background-color: RGB(253,185,39);
+}
+
+#voltar:hover {
+    -fx-background-color: black;
+}
+
+#avancar {
+    -fx-background-color: RGB(253,185,39);
+}
+
+#avancar:hover {
+    -fx-background-color: black;
+}

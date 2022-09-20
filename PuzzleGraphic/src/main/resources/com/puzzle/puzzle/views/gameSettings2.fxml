@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.net.*?>
 <?import javafx.scene.text.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
@@ -10,22 +9,22 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="600.0" style="-fx-background-color: RGB(85,37,130);" stylesheets="@../style/gameSettings.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.puzzle.puzzle.controller.GameSettings">
    <children>
-      <Label layoutX="14.0" layoutY="85.0" prefHeight="95.0" prefWidth="567.0" text="Digite seu nome(até 12 caracteres)" textFill="#fdb927">
+      <Label layoutX="63.0" layoutY="110.0" prefHeight="74.0" prefWidth="442.0" text="Escolha o modo" textAlignment="CENTER" textFill="#fdb927">
          <font>
-            <Font name="System Bold" size="34.0" />
+            <Font name="System Bold" size="36.0" />
          </font>
       </Label>
-      <TextField fx:id="nameField" layoutX="84.0" layoutY="220.0" prefHeight="50.0" prefWidth="387.0">
-         <font>
-            <Font size="24.0" />
-         </font>
-      </TextField>
-      <Button fx:id="voltar" layoutX="496.0" layoutY="580.0" mnemonicParsing="false" onAction="#voltarMenu" prefHeight="44.0" prefWidth="87.0" text="Voltar" textFill="WHITE">
+      <Button fx:id="voltar" layoutX="496.0" layoutY="580.0" mnemonicParsing="false" onAction="#voltarNome" prefHeight="44.0" prefWidth="87.0" text="Voltar" textFill="WHITE">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </Button>
-      <Button fx:id="avancar" layoutX="191.0" layoutY="408.0" mnemonicParsing="false" onAction="#getNome" prefHeight="74.0" prefWidth="174.0" text="AVANÇAR" textFill="WHITE">
+      <Button fx:id="normal" layoutX="72.0" layoutY="288.0" mnemonicParsing="false" onAction="#getMode" prefHeight="74.0" prefWidth="178.0" style="-fx-background-color: RGB(253,185,39);" text="NORMAL" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="maluco" layoutX="339.0" layoutY="288.0" mnemonicParsing="false" onAction="#getMode" prefHeight="74.0" prefWidth="178.0" style="-fx-background-color: RGB(253,185,39);" text="MALUCO" textFill="WHITE">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>

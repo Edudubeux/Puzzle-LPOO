@@ -5,4 +5,6 @@ module com.puzzle.puzzle {
 
     opens com.puzzle.puzzle to javafx.fxml;
     exports com.puzzle.puzzle;
+    exports com.puzzle.puzzle.controller;
+    opens com.puzzle.puzzle.controller to javafx.fxml;
 }
