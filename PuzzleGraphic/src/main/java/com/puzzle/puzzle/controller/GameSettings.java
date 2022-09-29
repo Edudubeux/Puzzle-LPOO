@@ -1,5 +1,6 @@
 package com.puzzle.puzzle.controller;
 
+import com.puzzle.puzzle.exceptions.NomeExtensoException;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -8,6 +9,7 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
@@ -47,6 +49,9 @@ public class GameSettings implements Initializable {
     @FXML
     private Button dificil;
 
+    @FXML
+    private Label erro;
+
     private User user = new User();
 
     public void voltarMenu (ActionEvent event) throws IOException {
@@ -65,13 +70,25 @@ public class GameSettings implements Initializable {
         stage.show();
     }
 
-    public void getNome (ActionEvent event) throws IOException {
-        user.setNome(nameField.getText());
-        root = FXMLLoader.load(getClass().getResource("/com/puzzle/puzzle/views/gameSettings2.fxml"));
-        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
+    public void preencherNome () {
+        if (user.getNome().length() != 0) {
+            this.nameField.setText(user.getNome());
+        }
+    }
+
+    public void getNome (ActionEvent event) throws IOException, NomeExtensoException {
+        if (nameField.getText().length() <= 20 && nameField.getText().length() >= 3) {
+            user.setNome(nameField.getText());
+            root = FXMLLoader.load(getClass().getResource("/com/puzzle/puzzle/views/gameSettings2.fxml"));
+            stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+            scene = new Scene(root);
+            stage.setScene(scene);
+            stage.show();
+        } else {
+            NomeExtensoException err = new NomeExtensoException();
+            erro.setText(err.getMessage());
+            throw err;
+        }
     }
 
     public void getMode (ActionEvent event) throws IOException {
@@ -104,7 +121,7 @@ public class GameSettings implements Initializable {
         stage.show();
     }
 
-    public void getDificuldade (ActionEvent event) throws IOException {
+    public void getDificuldade (ActionEvent event) throws IOException{
         if(event.getSource().toString().equals(facil.toString())){
             user.setNivel(2);
         } else if(event.getSource().toString().equals(medio.toString())){
@@ -113,11 +130,11 @@ public class GameSettings implements Initializable {
             user.setNivel(4);
         }
 
-//        root = FXMLLoader.load(getClass().getResource("/com/puzzle/puzzle/views/gameSettings4.fxml")); Criar tabuleiro
-//        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-//        scene = new Scene(root);
-//        stage.setScene(scene);
-//        stage.show();
+        root = FXMLLoader.load(getClass().getResource("/com/puzzle/puzzle/views/puzzle.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
     }
 
     public void voltarModo (ActionEvent event) throws IOException {

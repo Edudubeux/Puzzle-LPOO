@@ -27,9 +27,18 @@ public class Menu implements Initializable {
         stage.setScene(scene);
         stage.show();
     }
-    @FXML
-    private Button iniciar;
 
+    public void fecharGame (ActionEvent event) throws IOException {
+
+    }
+
+    public void openRanking (ActionEvent event) throws IOException {
+        root = FXMLLoader.load(getClass().getResource("/com/puzzle/puzzle/views/ranking.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
     public void initialize(URL url, ResourceBundle resourceBundle) {
     }
 }

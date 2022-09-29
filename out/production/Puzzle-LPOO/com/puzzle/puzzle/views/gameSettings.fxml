@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.net.*?>
-<?import javafx.scene.text.*?>
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="600.0" style="-fx-background-color: RGB(85,37,130);" stylesheets="@../style/gameSettings.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.puzzle.puzzle.controller.GameSettings">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="600.0" style="-fx-background-color: RGB(85,37,130);" stylesheets="@../style/gameSettings.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.puzzle.puzzle.controller.GameSettings">
    <children>
-      <Label layoutX="14.0" layoutY="85.0" prefHeight="95.0" prefWidth="567.0" text="Digite seu nome(até 12 caracteres)" textFill="#fdb927">
+      <Label layoutX="33.0" layoutY="85.0" prefHeight="95.0" prefWidth="567.0" text="Digite seu nome" textFill="#fdb927">
          <font>
             <Font name="System Bold" size="34.0" />
          </font>
       </Label>
-      <TextField fx:id="nameField" layoutX="84.0" layoutY="220.0" prefHeight="50.0" prefWidth="387.0">
+      <TextField fx:id="nameField" layoutX="86.0" layoutY="214.0" prefHeight="50.0" prefWidth="387.0">
          <font>
             <Font size="24.0" />
          </font>
@@ -25,10 +23,15 @@
             <Font name="System Bold" size="20.0" />
          </font>
       </Button>
-      <Button fx:id="avancar" layoutX="191.0" layoutY="408.0" mnemonicParsing="false" onAction="#getNome" prefHeight="74.0" prefWidth="174.0" text="AVANÇAR" textFill="WHITE">
+      <Button fx:id="avancar" layoutX="193.0" layoutY="377.0" mnemonicParsing="false" onAction="#getNome" prefHeight="74.0" prefWidth="174.0" text="AVANÇAR" textFill="WHITE">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </Button>
+      <Label fx:id="erro" layoutX="86.0" layoutY="308.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="51.0" prefWidth="494.0" style="-fx-wrap-text: tru;" textFill="#fdb927" wrapText="true">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
