@@ -4,7 +4,8 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
-<AnchorPane prefHeight="650.0" prefWidth="600.0" style="-fx-background-color: RGB(85,37,130);" stylesheets="@../style/menu.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.puzzle.puzzle.controller.Menu">
+
+<AnchorPane fx:id="menu" prefHeight="650.0" prefWidth="600.0" style="-fx-background-color: RGB(85,37,130);" stylesheets="@../style/menu.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.puzzle.puzzle.controller.Menu">
       <Button fx:id="iniciar" layoutX="174.0" layoutY="253.0" mnemonicParsing="false" onAction="#iniciarGame" prefHeight="73.0" prefWidth="253.0" text="INICIAR" textFill="WHITE">
          <font>
             <Font name="System Bold" size="20.0" />
@@ -14,7 +15,7 @@
             <Font name="System Bold" size="20.0" />
          </font>
       </Button>
-      <Button fx:id="sair" layoutX="174.0" layoutY="491.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="253.0" text="SAIR" textFill="WHITE">
+      <Button fx:id="sair" layoutX="174.0" layoutY="491.0" mnemonicParsing="false" onAction="#fecharGame" prefHeight="73.0" prefWidth="253.0" text="SAIR" textFill="WHITE">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
