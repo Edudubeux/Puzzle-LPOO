@@ -8,13 +8,15 @@ import javafx.scene.paint.Color;
 
 import java.util.Random;
 
-public class Puzzle {
+import static jdk.internal.org.jline.terminal.Terminal.MouseTracking.Button;
+
+public abstract class Puzzle {
     private User user = new User();
 
     @FXML
     private GridPane gridTab;
 
-    private Button buttons[][] = new Button[user.getNivel()][user.getNivel()];
+    private Button[][] buttons = new Button[user.getNivel()][user.getNivel()];
 
     public int[] randomizar () {
         Random random = new Random();
