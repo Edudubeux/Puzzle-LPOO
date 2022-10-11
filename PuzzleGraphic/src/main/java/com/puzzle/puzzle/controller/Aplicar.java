@@ -1,8 +1,8 @@
 package com.puzzle.puzzle.controller;
 
-import javafx.application.Application;
-
-import static jdk.internal.org.jline.terminal.Terminal.MouseTracking.Button;
+import javafx.scene.Parent;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
 
 public class Aplicar {
 

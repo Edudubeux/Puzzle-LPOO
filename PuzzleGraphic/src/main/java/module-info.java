@@ -1,6 +1,7 @@
 module com.puzzle.puzzle {
     requires javafx.controls;
     requires javafx.fxml;
+    requires jdk.internal.le;
 
 
     opens com.puzzle.puzzle to javafx.fxml;

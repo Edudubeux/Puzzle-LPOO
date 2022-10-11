@@ -8,9 +8,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -26,46 +24,42 @@ public class GameSettings implements Initializable {
     private TextField nameField;
 
     @FXML
-    private Button normal;
+    private RadioButton normal;
 
     @FXML
-    private Button maluco;
+    private RadioButton maluco;
 
     @FXML
-    private Button numeros;
+    private RadioButton numeros;
 
     @FXML
-    private Button letras;
+    private RadioButton letras;
 
     @FXML
-    private Button imagem;
+    private RadioButton imagem;
 
     @FXML
-    private Button facil;
+    private RadioButton facil;
 
     @FXML
-    private Button medio;
+    private RadioButton medio;
 
     @FXML
-    private Button dificil;
+    private RadioButton dificil;
 
     @FXML
     private Label erro;
 
-    private User user = new User();
+    public User user;
+
+    public GameSettings () {
+        this.user = new User();
+    }
 
     public void voltarMenu (ActionEvent event) throws IOException {
         root = FXMLLoader.load(getClass().getResource("/com/puzzle/puzzle/views/menu.fxml"));
-        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
-    }
-
-    public void voltarNome (ActionEvent event) throws IOException {
-        root = FXMLLoader.load(getClass().getResource("/com/puzzle/puzzle/views/gameSettings.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
     }
@@ -76,81 +70,47 @@ public class GameSettings implements Initializable {
         }
     }
 
-    public void getNome (ActionEvent event) throws IOException, NomeExtensoException {
+    public void setNome (ActionEvent event) throws IOException, NomeExtensoException {
         if (nameField.getText().length() <= 20 && nameField.getText().length() >= 3) {
-            user.setNome(nameField.getText());
-            root = FXMLLoader.load(getClass().getResource("/com/puzzle/puzzle/views/gameSettings2.fxml"));
+            this.user.setNome(nameField.getText());
+            new Puzzle(this.user);
+            root = FXMLLoader.load(getClass().getResource("/com/puzzle/puzzle/views/puzzle.fxml"));
+            scene = new Scene(root); 
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-            scene = new Scene(root);
             stage.setScene(scene);
             stage.show();
         } else {
             NomeExtensoException err = new NomeExtensoException();
             erro.setText(err.getMessage());
-            throw err;
         }
     }
 
-    public void getMode (ActionEvent event) throws IOException {
-        if(event.getSource().toString().equals(normal.toString())){
+    public void setMode (ActionEvent event) throws IOException {
+        if(normal.isSelected()){
             user.setMode(1);
-        } else if (event.getSource().toString().equals(maluco.toString())){
+        } else if (maluco.isSelected()){
             user.setMode(2);
         }
-
-        root = FXMLLoader.load(getClass().getResource("/com/puzzle/puzzle/views/gameSettings3.fxml"));
-        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
     }
 
-    public void getTipo (ActionEvent event) throws IOException {
-        if(event.getSource().toString().equals(numeros.toString())){
-            user.setTipo("numeros");
-        } else if(event.getSource().toString().equals(letras.toString())){
-            user.setTipo("letras");
-        } else if(event.getSource().toString().equals(imagem.toString())){
-            user.setTipo("imagem");
+    public void setTipo (ActionEvent event) throws IOException {
+        if(numeros.isSelected()){
+            user.setTipo(1);
+        } else if(letras.isSelected()){
+            user.setTipo(2);
+        } else if(imagem.isSelected()){
+            user.setTipo(3);
         }
-
-        root = FXMLLoader.load(getClass().getResource("/com/puzzle/puzzle/views/gameSettings4.fxml"));
-        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
     }
 
-    public void getDificuldade (ActionEvent event) throws IOException{
-        if(event.getSource().toString().equals(facil.toString())){
+    public void setDificuldade (ActionEvent event) throws IOException{
+        if(facil.isSelected()){
             user.setNivel(2);
-        } else if(event.getSource().toString().equals(medio.toString())){
+        } else if(medio.isSelected()){
             user.setNivel(3);
-        } else if(event.getSource().toString().equals(dificil.toString())){
+        } else if(dificil.isSelected()){
             user.setNivel(4);
         }
-
-        root = FXMLLoader.load(getClass().getResource("/com/puzzle/puzzle/views/puzzle.fxml"));
-        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
-    }
-
-    public void voltarModo (ActionEvent event) throws IOException {
-        root = FXMLLoader.load(getClass().getResource("/com/puzzle/puzzle/views/gameSettings2.fxml"));
-        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
-    }
-
-    public void voltarTipo (ActionEvent event) throws IOException {
-        root = FXMLLoader.load(getClass().getResource("/com/puzzle/puzzle/views/gameSettings3.fxml"));
-        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
     }
 
     public void initialize(URL url, ResourceBundle resourceBundle) {

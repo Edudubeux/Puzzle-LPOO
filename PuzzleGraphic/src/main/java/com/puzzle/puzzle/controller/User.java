@@ -1,14 +1,11 @@
 package com.puzzle.puzzle.controller;
 
-import javafx.fxml.FXML;
-import javafx.scene.control.TextField;
-
 public class User {
     private String nome;
     private int nivel;
     private int mode;
 
-    private String tipo;
+    private int tipo;
 
     public void setNome (String nome) {
         this.nome = nome;
@@ -18,11 +15,11 @@ public class User {
         return this.nome;
     }
 
-    public String getTipo () {
+    public int getTipo () {
         return this.tipo;
     }
 
-    public void setTipo (String tipo) {
+    public void setTipo (int tipo) {
         this.tipo = tipo;
     }
 
