@@ -25,7 +25,6 @@ public class Menu implements Initializable {
     private AnchorPane menu;
 
     public void iniciarGame (ActionEvent event) throws IOException {
-        new GameSettings();
         root = FXMLLoader.load(getClass().getResource("/com/puzzle/puzzle/views/gameSettings.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);

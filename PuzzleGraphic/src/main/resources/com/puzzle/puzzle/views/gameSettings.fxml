@@ -58,12 +58,12 @@
             <ToggleGroup fx:id="mode" />
          </toggleGroup>
       </RadioButton>
-      <RadioButton fx:id="normal" layoutX="75.0" layoutY="225.0" mnemonicParsing="false" onAction="#setMode" prefHeight="53.0" prefWidth="145.0" selected="true" style="-fx-background-color: RGB(253,185,39);" text="NORMAL" textFill="WHITE" toggleGroup="$mode">
+      <RadioButton fx:id="normal" layoutX="75.0" layoutY="225.0" mnemonicParsing="false" onAction="#setMode" prefHeight="53.0" prefWidth="145.0" style="-fx-background-color: RGB(253,185,39);" text="NORMAL" textFill="WHITE" toggleGroup="$mode">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </RadioButton>
-      <RadioButton fx:id="numeros" layoutX="49.0" layoutY="359.0" mnemonicParsing="false" onAction="#setTipo" prefHeight="53.0" prefWidth="145.0" selected="true" style="-fx-background-color: RGB(253,185,39);" text="NUMEROS" textFill="WHITE">
+      <RadioButton fx:id="numeros" layoutX="49.0" layoutY="359.0" mnemonicParsing="false" onAction="#setTipo" prefHeight="53.0" prefWidth="145.0" style="-fx-background-color: RGB(253,185,39);" text="NUMEROS" textFill="WHITE">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
@@ -81,7 +81,7 @@
             <Font name="System Bold" size="20.0" />
          </font>
       </RadioButton>
-      <RadioButton fx:id="facil" layoutX="49.0" layoutY="516.0" mnemonicParsing="false" onAction="#setDificuldade" prefHeight="53.0" prefWidth="145.0" selected="true" style="-fx-background-color: RGB(253,185,39);" text="2X2" textFill="WHITE">
+      <RadioButton fx:id="facil" layoutX="49.0" layoutY="516.0" mnemonicParsing="false" onAction="#setDificuldade" prefHeight="53.0" prefWidth="145.0" style="-fx-background-color: RGB(253,185,39);" text="2X2" textFill="WHITE">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>

@@ -50,11 +50,7 @@ public class GameSettings implements Initializable {
     @FXML
     private Label erro;
 
-    public User user;
-
-    public GameSettings () {
-        this.user = new User();
-    }
+    private User user = new User();
 
     public void voltarMenu (ActionEvent event) throws IOException {
         root = FXMLLoader.load(getClass().getResource("/com/puzzle/puzzle/views/menu.fxml"));
@@ -64,19 +60,18 @@ public class GameSettings implements Initializable {
         stage.show();
     }
 
-    public void preencherNome () {
-        if (user.getNome().length() != 0) {
-            this.nameField.setText(user.getNome());
-        }
-    }
-
     public void setNome (ActionEvent event) throws IOException, NomeExtensoException {
         if (nameField.getText().length() <= 20 && nameField.getText().length() >= 3) {
             this.user.setNome(nameField.getText());
-            new Puzzle(this.user);
-            root = FXMLLoader.load(getClass().getResource("/com/puzzle/puzzle/views/puzzle.fxml"));
+            Puzzle puzzle = new Puzzle(this.user);
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(getClass().getResource("/com/puzzle/puzzle/views/puzzle.fxml"));
+            loader.setController(puzzle);
+            root = loader.load();
             scene = new Scene(root); 
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+            puzzle.createTab();
+            puzzle.setNameOnBoard();
             stage.setScene(scene);
             stage.show();
         } else {
