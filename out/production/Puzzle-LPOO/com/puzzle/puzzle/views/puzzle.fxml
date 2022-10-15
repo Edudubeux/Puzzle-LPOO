@@ -14,14 +14,14 @@
              <ColumnConstraints hgrow="SOMETIMES" maxWidth="200.0" minWidth="10.0" prefWidth="200.0" />
            </columnConstraints>
          </GridPane>
-      <Label fx:id="nameLabel" layoutX="34.0" layoutY="37.0" prefHeight="32.0" prefWidth="228.0" text="Nome: " textFill="#fdb927">
+      <Label fx:id="nameLabel" layoutX="34.0" layoutY="37.0" prefHeight="32.0" prefWidth="228.0" textFill="#fdb927">
          <font>
-            <Font name="System Bold" size="20.0" />
+            <Font name="System Bold" size="25.0" />
          </font>
       </Label>
-      <Label layoutX="34.0" layoutY="69.0" prefHeight="32.0" prefWidth="228.0" text="Tempo:" textFill="#fdb927">
+      <Label fx:id="timeLabel" layoutX="34.0" layoutY="69.0" prefHeight="32.0" prefWidth="228.0" textFill="#fdb927">
          <font>
-            <Font name="System Bold" size="20.0" />
+            <Font name="System Bold" size="25.0" />
          </font>
       </Label>
    </children>

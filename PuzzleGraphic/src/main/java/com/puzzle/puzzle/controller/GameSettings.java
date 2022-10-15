@@ -1,6 +1,7 @@
 package com.puzzle.puzzle.controller;
 
 import com.puzzle.puzzle.exceptions.NomeExtensoException;
+import com.puzzle.puzzle.exceptions.OpcoesException;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -60,20 +61,26 @@ public class GameSettings implements Initializable {
         stage.show();
     }
 
-    public void setNome (ActionEvent event) throws IOException, NomeExtensoException {
+    public void setNome (ActionEvent event) throws IOException, NomeExtensoException, OpcoesException {
         if (nameField.getText().length() <= 20 && nameField.getText().length() >= 3) {
             this.user.setNome(nameField.getText());
-            Puzzle puzzle = new Puzzle(this.user);
-            FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(getClass().getResource("/com/puzzle/puzzle/views/puzzle.fxml"));
-            loader.setController(puzzle);
-            root = loader.load();
-            scene = new Scene(root); 
-            stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-            puzzle.createTab();
-            puzzle.setNameOnBoard();
-            stage.setScene(scene);
-            stage.show();
+            if((normal.isSelected() || maluco.isSelected()) && (numeros.isSelected() || letras.isSelected() || imagem.isSelected()) && (facil.isSelected() || medio.isSelected() || dificil.isSelected())) {
+                Puzzle puzzle = new Puzzle(this.user);
+                FXMLLoader loader = new FXMLLoader();
+                loader.setLocation(getClass().getResource("/com/puzzle/puzzle/views/puzzle.fxml"));
+                loader.setController(puzzle);
+                root = loader.load();
+                scene = new Scene(root);
+                stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+                puzzle.createTab();
+                puzzle.setNameOnBoard();
+                puzzle.createGaba();
+                stage.setScene(scene);
+                stage.show();
+            } else {
+                OpcoesException err = new OpcoesException();
+                erro.setText(err.getMessage());
+            }
         } else {
             NomeExtensoException err = new NomeExtensoException();
             erro.setText(err.getMessage());
