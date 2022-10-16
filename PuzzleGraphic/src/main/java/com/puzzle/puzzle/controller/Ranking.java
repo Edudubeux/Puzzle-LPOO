@@ -8,7 +8,7 @@ public class Ranking {
     public Ranking() {
         ranking = new TreeMap<Double, List<String>>();
 
-        //gera 5 objetos
+
         Random r = new Random();
         for (int i = 0; i < 5; i++) {
             int n = r.nextInt(10);

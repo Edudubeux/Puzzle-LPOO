@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4cadeee7-d66f-4f9d-af4e-bfd9cac64b08" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PuzzleGraphic/src/main/java/com/puzzle/puzzle/controller/GameSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/PuzzleGraphic/src/main/java/com/puzzle/puzzle/controller/GameSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/Puzzle.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/src.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/src/Celula.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/src/Settings/Menu.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/src/Settings/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/src/Settings/Ranking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/src/Tabuleiro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/src/Users/Jogador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/src/Users/Jogadores.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle/src/src.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PuzzleGraphic/src/main/java/com/puzzle/puzzle/controller/Aplicar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PuzzleGraphic/src/main/java/com/puzzle/puzzle/controller/Gerenciamento.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/PuzzleGraphic/src/main/java/com/puzzle/puzzle/controller/Puzzle.java" beforeDir="false" afterPath="$PROJECT_DIR$/PuzzleGraphic/src/main/java/com/puzzle/puzzle/controller/Puzzle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PuzzleGraphic/src/main/resources/com/puzzle/puzzle/views/gameSettings.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/PuzzleGraphic/src/main/resources/com/puzzle/puzzle/views/gameSettings.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PuzzleGraphic/src/main/resources/com/puzzle/puzzle/views/puzzle.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/PuzzleGraphic/src/main/resources/com/puzzle/puzzle/views/puzzle.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PuzzleGraphic/src/main/resources/com/puzzle/puzzle/views/ranking.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/PuzzleGraphic/src/main/resources/com/puzzle/puzzle/views/ranking.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Puzzle-LPOO/com/puzzle/puzzle/controller/GameSettings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Puzzle-LPOO/com/puzzle/puzzle/controller/GameSettings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Puzzle-LPOO/com/puzzle/puzzle/controller/Puzzle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Puzzle-LPOO/com/puzzle/puzzle/controller/Puzzle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Puzzle-LPOO/com/puzzle/puzzle/views/gameSettings.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Puzzle-LPOO/com/puzzle/puzzle/views/gameSettings.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Puzzle-LPOO/com/puzzle/puzzle/views/puzzle.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Puzzle-LPOO/com/puzzle/puzzle/views/puzzle.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Puzzle-LPOO/com/puzzle/puzzle/views/ranking.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Puzzle-LPOO/com/puzzle/puzzle/views/ranking.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PuzzleGraphic/src/main/java/com/puzzle/puzzle/controller/Ranking.java" beforeDir="false" afterPath="$PROJECT_DIR$/PuzzleGraphic/src/main/java/com/puzzle/puzzle/controller/Ranking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PuzzleGraphic/src/main/java/com/puzzle/puzzle/controller/SaveJogo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PuzzleGraphic/src/main/java/com/puzzle/puzzle/controller/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/PuzzleGraphic/src/main/java/com/puzzle/puzzle/controller/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +36,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,6 +64,10 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Puzzle-LPOO\PuzzleGraphic\src\main\resources\com\puzzle\puzzle\save" />
+      <recent name="C:\Puzzle-LPOO\PuzzleGraphic" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.puzzle.puzzle.movimentos" />
     </key>
@@ -109,5 +127,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PuzzleGraphic/src/main/java/com/puzzle/puzzle/controller/Ranking.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

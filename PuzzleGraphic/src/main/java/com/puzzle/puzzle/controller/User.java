@@ -1,5 +1,8 @@
 package com.puzzle.puzzle.controller;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+
 public class User {
     private String nome;
     private int nivel;
@@ -38,4 +41,6 @@ public class User {
     public int getNivel () {
         return this.nivel;
     }
+
+
 }
