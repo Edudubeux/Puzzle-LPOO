@@ -6,27 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4cadeee7-d66f-4f9d-af4e-bfd9cac64b08" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/Puzzle.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/out/production/Puzzle/src.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/src/Celula.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/src/Settings/Menu.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/src/Settings/Menu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/src/Settings/Ranking.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/src/Tabuleiro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/src/Users/Jogador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/src/Users/Jogadores.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle/src/src.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PuzzleGraphic/src/main/java/com/puzzle/puzzle/controller/Aplicar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PuzzleGraphic/src/main/java/com/puzzle/puzzle/controller/Gerenciamento.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PuzzleGraphic/src/main/java/com/puzzle/puzzle/controller/Puzzle.java" beforeDir="false" afterPath="$PROJECT_DIR$/PuzzleGraphic/src/main/java/com/puzzle/puzzle/controller/Puzzle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PuzzleGraphic/src/main/java/com/puzzle/puzzle/controller/Ranking.java" beforeDir="false" afterPath="$PROJECT_DIR$/PuzzleGraphic/src/main/java/com/puzzle/puzzle/controller/Ranking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PuzzleGraphic/src/main/java/com/puzzle/puzzle/controller/SaveJogo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PuzzleGraphic/src/main/java/com/puzzle/puzzle/controller/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/PuzzleGraphic/src/main/java/com/puzzle/puzzle/controller/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PuzzleGraphic/src/main/java/com/puzzle/puzzle/controller/SaveLoadGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/PuzzleGraphic/src/main/java/com/puzzle/puzzle/controller/SaveLoadGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
