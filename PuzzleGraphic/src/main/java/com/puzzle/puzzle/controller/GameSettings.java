@@ -72,9 +72,16 @@ public class GameSettings implements Initializable {
                 root = loader.load();
                 scene = new Scene(root);
                 stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-                puzzle.createTab();
+                if (this.user.getTipo() == 1) {
+                    System.out.println("numero");
+                    puzzle.createNumTab();
+                    puzzle.createGabaNum();
+                } else if (this.user.getTipo() == 2){
+                    System.out.println("letra");
+                    puzzle.createCharTab();
+                    puzzle.createGabaChar();
+                }
                 puzzle.setNameOnBoard();
-                puzzle.createGaba();
                 stage.setScene(scene);
                 stage.show();
             } else {

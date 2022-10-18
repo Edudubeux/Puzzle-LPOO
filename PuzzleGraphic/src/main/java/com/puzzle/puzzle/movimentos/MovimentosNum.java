@@ -2,7 +2,6 @@ package com.puzzle.puzzle.movimentos;
 
 import com.puzzle.puzzle.controller.User;
 import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.scene.control.Button;
 
 public class MovimentosNum{
@@ -33,6 +32,7 @@ public class MovimentosNum{
                         buttons[posI][posJ].setText(buttons[i][j].getText());
                         buttons[posI][posJ].setStyle("-fx-background-color:  RGB(253,185,39)");
                         buttons[i][j].setStyle("-fx-text-fill: TRANSPARENT");
+                        buttons[i][j].setText("0");
 
                         setPosJ(j);
                         setPosI(i);

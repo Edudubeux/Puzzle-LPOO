@@ -32,10 +32,10 @@ public class SaveLoadGame {
         try {
             BufferedReader br = new BufferedReader(new FileReader("saveFile.txt"));
 
-            user.getNome() = br.readLine();
-            user.getTipo() = Integer.parseInt(br.readLine());
-            user.getMode() = Integer.parseInt(br.readLine());
-            user.getNivel() = Integer.parseInt(br.readLine());
+//            user.getNome() = br.readLine();
+//            user.getTipo() = Integer.parseInt(br.readLine());
+//            user.getMode() = Integer.parseInt(br.readLine());
+//            user.getNivel() = Integer.parseInt(br.readLine());
 
         } catch (Exception e) {
         }
